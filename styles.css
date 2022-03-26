@@ -16,8 +16,8 @@
 }
 
 .img{
-    width:88%;
-    height:88%;
+    width:92.5%;
+    height:92.5%;
     margin:0%;
     margin-top: 1%;
 }
@@ -113,7 +113,7 @@
 }
 
 .subheading4{
-    font-size: 100%;
+    font-size: 125%;
     color:var(--bisque);
 }
 
@@ -142,7 +142,7 @@
     border-radius: 5px;
     padding: 0% 5%;
     margin-top: 0%;
-    margin-bottom: 5%;
+    margin-bottom: 12.5%;
     transition-duration: 0.5s;}
 
 .button1{background-color:var(--brown);
@@ -256,6 +256,6 @@ hr{
 .header{
     background-color:var(--brown);
     margin: 0%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
 }
