@@ -38,7 +38,7 @@ function setup()
   // select filter
   const sel = createSelect();
   const selectList = ['Turban',]; // list of filters
-  sel.option('Choose the Filter', -1); // Default no filter
+  sel.option('Please Select "Turban" to Virtually Experience & Enter into A New World of Turbans, In a way you have never before!', -1); // Default no filter
   for (let i = 0; i < selectList.length; i++)
   {
     sel.option(selectList[i], i);

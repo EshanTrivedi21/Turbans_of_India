@@ -29,7 +29,7 @@
 .photos{
     margin:0%;
     margin-top:10%;
-    margin-bottom:15%;
+    margin-bottom:10%;
 }
 
 .photos2{
@@ -39,17 +39,17 @@
 }
 
 .img1{
-    border:black solid;
+    border:var(--brown) solid 2px;
     border-radius: 50%;
     width:30%;
     height:30%;
-    margin:0%;
+    margin:1%;
 }
 
 .img1:hover{
     transition-duration: 1s;
     transform: scale(1.025);
-    border-radius: 25%;}
+    border-radius: 0%;}
 
 
 .header1{
@@ -81,18 +81,19 @@
 }
 
 .header4{
-    font-size: 225%;
+    font-size: 275%;
     color: black solid;
     font-family: 'Merriweather', serif;
     position:relative;
     margin: 0%;
+    margin-top:2.5%;
     padding: 0%;
 }
 
 .header5{
-    font-size: 140%;
+    font-size: 180%;
     color: black solid;
-    font-family: 'Merriweather', serif;
+    font-family: 'Satisfy', cursive;
     position:relative;
     margin: 0%;
     margin-top: 10%;
@@ -169,8 +170,8 @@
         border:var(--brown);
         border: 2px solid var(--brown);
         border-radius: 5px;
-        padding: 0% 5%;
-        margin: 1%;
+        padding: 0% 6%;
+        margin: 2%;
         margin-top: 0%;
         margin-bottom: 5%;
         transition-duration: 0.5s;}
@@ -241,9 +242,22 @@ hr{
     border-top: black solid;
 }
 
-.education{font-size: 30px;}
-.title{font-size: 30px;}
+.header6{
+    font-size: 100%;
+    font-family: 'Merriweather', serif;
+    position:relative;
+    padding:1%;
+}
 
+.education{font-size: 30px;}
+
+.title{font-size: 30px ;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Satisfy', cursive;}
+
+.p{font-size: 25px;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Satisfy', cursive;}
 
 .turban{
     width: 180px;
@@ -258,7 +272,7 @@ hr{
     padding-bottom: 0.25%;
 }
 
-.fa-house{font-size: 20px;
+.fa-solid{font-size: 20px;
     color:var(--bisque);
     transition-duration: 1s;
     margin-left: 10px;
@@ -266,5 +280,5 @@ hr{
     float:left;
 }
                     
-.fa-house:hover{transform: scale(1.05);
+.fa-solid:hover{transform: scale(1.05);
     color:var(--bisque2);}

@@ -268,3 +268,14 @@ hr{
                     
 .fa-house:hover{transform: scale(1.05);
     color:var(--bisque2);}
+
+.fa-delete-left{font-size: 20px;
+    color:var(--bisque);
+    transition-duration: 1s;
+    margin-right: 10px;
+    margin-top:4px;
+    float:right;
+}
+                    
+.fa-delete-left:hover{transform: scale(1.05);
+    color:var(--bisque2);}
