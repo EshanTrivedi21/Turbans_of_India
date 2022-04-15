@@ -269,7 +269,7 @@ hr{
 .fa-house:hover{transform: scale(1.05);
     color:var(--bisque2);}
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     
 .subheading3{
     font-size: 150%;
